@@ -1,3 +1,3 @@
 #!/bin/bash  
 yum update -y
-yum install mysql -y
+sudo yum install -y postgresql postgresql-server postgresql-devel postgresql-contrib postgresql-docs
